@@ -1,4 +1,4 @@
-# gourdo1's latest firmware updates
+# gourdo1's latest GMMK Pro firmware updates
 
 ANSI: https://github.com/gourdo1/media/raw/main/gmmk_pro_rev1_ansi_gourdo1.bin
 
