@@ -2,8 +2,8 @@
 
 ## 2022
 
-- July 19 - Fixed toggle menu rendering on ISO layouts
-- July 18 - Fixed left-shift not working properly in games. Now the 'double tap left shift for capslock' works as expected: Either [FN][Winkey] (or [FN]5) will disable it and it shouldn't interfere with use of left-shift in games any longer. 
+    - July 19 - Fixed toggle menu rendering on ISO layouts
+    - July 18 - Fixed left-shift not working properly in games. Now the 'double tap left shift for capslock' works as expected: Either [FN][Winkey] (or [FN]5) will disable it and it shouldn't interfere with use of left-shift in games any longer. 
 * July 1  - (Partial) fix for ISO layouts not displaying config screen properly.
 * June 29 - MAJOR UPDATE
         * Persistent, toggle-able customizations. Open a text editor and hit [FN]` (tilde) to see what you can change in real-time without using VIA or compiling your own QMK firmware.
