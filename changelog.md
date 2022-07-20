@@ -3,15 +3,17 @@
 ## 2022
 
     July 19 - Fixed toggle menu rendering on ISO layouts.
-    July 18 - Replaced 'double tap left-shift for Capslock' TapDance with custom code. Works in games and beyond without interfering with left-shift key.
+    July 18 - Replaced 'double tap left-shift for Capslock' TapDance with custom code. No longer interferes with left-shift key.
     July  1 - (Partial) fix for ISO layouts not displaying config screen properly.
-    June 29 - MAJOR UPDATE:
-            - Persistent, toggle-able customizations. Open a text editor and hit [FN]` (tilde) to see what you can change in real-time without using VIA or compiling your own QMK firmware.
+    June 29 - MAJOR UPDATE - Added persistent, toggle-able settings:
+            - Open a text editor and hit [FN]` (tilde) to see what you can toggle.
             - Added toggle for forcing CTRL- & SHIFT-SPACE to function like regular SPACE ([FN]8).
             - Eliminated delays on numpad engage and ESC key (replaced tapdances with custom code).
             - Initial ISO layout support.
     June 28 - Changed RGB backlight timeout indicator to use [FN] F-key row exclusively.
-    June 22 - Expanded the list of symbols that DON'T interrupt Caps Word to include backspace, delete, all numbers, all symbols above number keys as well as dash, underscore, colon, semicolon, quote, double quote, grave and tilde. Also, Caps Word no longer applies shift to any non-alpha keys.
+    June 22 - Expanded the list of symbols that DON'T interrupt Caps Word to include:
+              backspace, delete, all numbers, all symbols above number keys as well as dash, underscore, colon, semicolon, quote,
+              double quote, grave and tilde. Also, Caps Word no longer applies shift to any non-alpha keys.
     June 16 - Tweaked starting background color so hue steps properly align to solid RGB colors.
     May  31 - QMK added native CapsWord, so switched to built-in function with custom 10sec idle timeout.
     May  30 - Due to a folder restructure by the QMK team, keymap is now located here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/ansi/keymaps/gourdo1
@@ -28,7 +30,8 @@
     Apr  11 - Added multi-monitor app moving shortcuts: [FN] ],[ (square brackets) to move current app window to next monitor.
             - Added [FN][ESC] to clear EEPROM.
             - Added [FN]R to toggle N-key Rollover.
-    Apr   7 - Added some domain shortcuts: [FN]. for .com, [FN]O for outlook.com, [FN]Y for yahoo.com, [FN]H for hotmail.com, [FN]G for gmail.com
+    Apr   7 - Added a few handy domain shortcuts:
+              [FN]. for .com, [FN]O for outlook.com, [FN]Y for yahoo.com, [FN]H for hotmail.com, [FN]G for gmail.com
     Mar  16 - VIA support enabled. See: https://www.caniusevia.com/
     Mar  15 - Added Mouse Keys to numpad layer. Mouse Keys allow you to control the mouse without taking your hand off the keyboard.
     Feb  26 - Added double tap [ESC] to revert to base layer.
