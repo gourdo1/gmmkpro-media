@@ -2,6 +2,7 @@
 
 ## 2022
 
+    July 20 - Added toggle-able AutoCorrect, based on Pascal Getreuer's code.
     July 19 - Fixed toggle menu rendering on ISO layouts.
     July 18 - Replaced 'double tap left-shift for Capslock' TapDance with custom code. No longer interferes with left-shift key.
     July  1 - (Partial) fix for ISO layouts not displaying config screen properly.
