@@ -11,12 +11,13 @@
             - Eliminated delays on numpad engage and ESC key (replaced tapdances with custom code).
             - Initial ISO layout support.
     June 28 - Changed RGB backlight timeout indicator to use [FN] F-key row exclusively.
-    June 22 - Expanded the list of symbols that DON'T interrupt Caps Word to include:
-              backspace, delete, all numbers, all symbols above number keys as well as dash, underscore, colon, semicolon, quote,
-              double quote, grave and tilde. Also, Caps Word no longer applies shift to any non-alpha keys.
+    June 22 - Expanded the list of symbols that DON'T interrupt Caps Word to include: backspace, delete, all numbers,
+               all symbols above number keys as well as dash, underscore, colon, semicolon, quote, double quote, grave and tilde.
+            - Caps Word no longer applies shift to any non-alpha keys.
     June 16 - Tweaked starting background color so hue steps properly align to solid RGB colors.
     May  31 - QMK added native CapsWord, so switched to built-in function with custom 10sec idle timeout.
-    May  30 - Due to a folder restructure by the QMK team, keymap is now located here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/ansi/keymaps/gourdo1
+    May  30 - Due to a folder restructure by the QMK team, keymap is now located here:
+               https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/ansi/keymaps/gourdo1
             - Fixed EEPROM reset function [FN][ESC] (QMK Q2 update fix).
     May  24 - Completed a refactor of RGB background effects:
             - There are now 24 effect modes accessible by hitting Fn-Up or Down arrow keys.
@@ -31,7 +32,7 @@
             - Added [FN][ESC] to clear EEPROM.
             - Added [FN]R to toggle N-key Rollover.
     Apr   7 - Added a few handy domain shortcuts:
-              [FN]. for .com, [FN]O for outlook.com, [FN]Y for yahoo.com, [FN]H for hotmail.com, [FN]G for gmail.com
+               [FN]. for .com, [FN]O for outlook.com, [FN]Y for yahoo.com, [FN]H for hotmail.com, [FN]G for gmail.com
     Mar  16 - VIA support enabled. See: https://www.caniusevia.com/
     Mar  15 - Added Mouse Keys to numpad layer. Mouse Keys allow you to control the mouse without taking your hand off the keyboard.
     Feb  26 - Added double tap [ESC] to revert to base layer.
