@@ -2,7 +2,7 @@
 
 ## 2022
 
-    July 20 - Added toggle-able AutoCorrect with 400 word dictionary; Uses Pascal Getreuer's implementation.
+    July 20 - Added toggle-able AutoCorrect with 400 word English dictionary; Uses Pascal Getreuer's implementation.
     July 19 - Fixed toggle menu rendering on ISO layouts.
     July 18 - Replaced 'double tap left-shift for Capslock' TapDance with custom code. No longer interferes with left-shift key.
     July  1 - (Partial) fix for ISO layouts not displaying config screen properly.
