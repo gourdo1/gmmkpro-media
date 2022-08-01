@@ -2,6 +2,7 @@
 
 ## 2022
 
+    July 31 - Added [FN]B as additional shortcut to bootloader mode (e.g. in case ISO flashed to ANSI keyboard)
     July 20 - Added toggle-able AutoCorrect with 400 word English dictionary; Uses Pascal Getreuer's implementation.
     July 19 - Fixed toggle menu rendering on ISO layouts.
     July 18 - Replaced 'double tap left-shift for Capslock' TapDance with custom code. No longer interferes with left-shift key.
