@@ -2,7 +2,9 @@
 
 ## 2022
 
-    July 31 - Added [FN]B as additional shortcut to bootloader mode (e.g. in case ISO flashed to ANSI keyboard)
+    Aug   8 - Added [FN]0 as a config option (for ISO layouts only) to extend CapsLock RGB highlights to extended alpha keys.
+            - Moved 'system numlock off' warning from base layer to FN and Numpad layers to improve Mac compatibility.
+    July 31 - Added [FN]B as additional shortcut to bootloader mode (e.g. in case ISO flashed to ANSI keyboard).
     July 20 - Added toggle-able AutoCorrect with 400 word English dictionary; Uses Pascal Getreuer's implementation.
     July 19 - Fixed toggle menu rendering on ISO layouts.
     July 18 - Replaced 'double tap left-shift for Capslock' TapDance with custom code. No longer interferes with left-shift key.
@@ -13,8 +15,8 @@
             - Eliminated delays on numpad engage and ESC key (replaced tapdances with custom code).
             - Initial ISO layout support.
     June 28 - Changed RGB backlight timeout indicator to use [FN] F-key row exclusively.
-    June 22 - Expanded the list of symbols that DON'T interrupt Caps Word to include: backspace, delete, all numbers,
-               all symbols above number keys as well as dash, underscore, colon, semicolon, quote, double quote, grave and tilde.
+    June 22 - Expanded the list of symbols that DON'T interrupt Caps Word to include: backspace, delete, all numbers, all
+               symbols above number keys as well as dash, underscore, colon, semicolon, quote, double quote, grave and tilde.
             - Caps Word no longer applies shift to any non-alpha keys.
     June 16 - Tweaked starting background color so hue steps properly align to solid RGB colors.
     May  31 - QMK added native CapsWord, so switched to built-in function with custom 10sec idle timeout.
