@@ -20,9 +20,7 @@
             - Caps Word no longer applies shift to any non-alpha keys.
     June 16 - Tweaked starting background color so hue steps properly align to solid RGB colors.
     May  31 - QMK added native CapsWord, so switched to built-in function with custom 10sec idle timeout.
-    May  30 - Due to a folder restructure by the QMK team, keymaps are now located in 'rev1' folder paths:
-               https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/ansi/keymaps/gourdo1
-               https://github.com/qmk/qmk_firmware/tree/master/keyboards/gmmk/pro/rev1/iso/keymaps/gourdo1
+    May  30 - Due to a folder restructure by the QMK team, keymaps are now located in 'rev1' folder paths.
             - Fixed EEPROM reset function [FN][ESC] (QMK Q2 update fix).
     May  24 - Completed a refactor of RGB background effects:
             - There are now 24 effect modes accessible by hitting Fn-Up or Down arrow keys.
