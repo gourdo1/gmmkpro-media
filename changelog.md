@@ -1,7 +1,7 @@
 # [gourdo1's](mailto:gourdo1@outlook.com) GMMK Pro layouts -- Changelog
 
 ## 2022
-
+    Dec  26 - Increased key debounce time to 8ms to reduce chatter issues.
     Aug   8 - Added [FN]0 as a config option (for ISO layouts only) to extend CapsLock RGB highlights to extended alpha keys.
             - Moved 'system numlock off' warning from base layer to FN and Numpad layers to improve Mac compatibility.
             - Fixed [FN]B and [FN]N shortcuts not working on numpad layer.
