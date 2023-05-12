@@ -1,6 +1,7 @@
 # [gourdo1's](mailto:gourdo1@outlook.com) GMMK Pro layouts -- Changelog
 
 ## 2023
+    May  12 - Fix for stuck Encoder button
     Apr  10 - Updated firmware for compatibility with latest QMK v20.5
 ## 2022
     Dec  26 - Increased key debounce time to 8ms to reduce chatter issues.
